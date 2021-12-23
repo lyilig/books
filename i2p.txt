@@ -3,3 +3,7 @@ outproxy.purokishi.i2p
 
 SSL PROXY
 ia55kcrvskaitnxegirubvderl4vhva6bwkiducbkma4scy2rhca.b32.i2p
+
+
+I2P HTTPS Proxy 4445
+outproxy-tor.meeh.i2p
