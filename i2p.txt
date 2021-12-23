@@ -1,3 +1,4 @@
+tube num(>1)
 o proxy
 outproxy.purokishi.i2p
 
