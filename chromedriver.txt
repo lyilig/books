@@ -1,0 +1,4 @@
+
+
+arm32 install chromedriver :  apt install chromium-driver
+arm64 : apt install chromium-chromedriver
