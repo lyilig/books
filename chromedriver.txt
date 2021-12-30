@@ -2,3 +2,16 @@
 
 arm32 install chromedriver :  apt install chromium-driver
 arm64 : apt install chromium-chromedriver
+
+
+
+
+设置代理proxy
+
+from selenium import webdriver
+PROXY = "192.168.2.225:8118"
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--proxy-server=http://%s' % PROXY)
+
+chrome = webdriver.Chrome(chrome_options=chrome_options)
+chrome.get("https://www.google.com")
