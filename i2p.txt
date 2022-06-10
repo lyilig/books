@@ -11,6 +11,8 @@ outproxy-tor.meeh.i2p
 
 
 i2p:
+http://stats.i2p/i2p/plugins/
+
 http://outproxy.purokishi.i2p
 http://xmh57jrzrnw6insl.onion/
 
