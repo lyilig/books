@@ -9,5 +9,23 @@ ia55kcrvskaitnxegirubvderl4vhva6bwkiducbkma4scy2rhca.b32.i2p
 I2P HTTPS Proxy 4445
 outproxy-tor.meeh.i2p
 
+
 i2p:
 https://www.reddit.com/r/i2p/comments/hcezcq/new_i2p_outproxy_service_purokishii2p/
+ 新的 I2P 代理服务：purokishi.i2p
+
+这是一项新的、由志愿者运营的服务，旨在为 I2P 用户提供功能强大、快速的代理。为了提供最佳性能，outproxy 配置为使用 I2P 版本 0.9.45 引入的新 ECIES-X25519 加密运行，并在一定程度上阻止广告和其他不良内容。
+
+配置：
+
+    确保您的 http 代理客户端在隧道管理器/隐藏服务管理器中配置为使用两种加密类型（ElGamal 和 ECIES） - 您可能需要停止隧道以允许配置。
+
+    Add the following to your addressbook: http://purokishi.i2p/?i2paddresshelper=Xlkn489i1MnVv6ANfspKBlTAAMVNAl-JV~WbE2WA0qtMV4HY~A0qRXf3oFW9rAXvskcspGHOINiTxHvdDRaH0tqRg~q0eR1c~cUqqqK-CsU9nlK5CQU-oOfcNyDoSrhjQRNbwpFmpIN6uRBOr1G-NeKja3vBCmgqJLnMxxi1nYmz4Epd14dhSpcydZvMqh6iQZcjnV3NGpPF1LdC0Mw1ga3jxaFxFNf8FvY9~0g~NheiCSCoU5XSpuzKKwz9k~2Ic-XlFjNkOcgQcdL~zbW2njCFByE6mNevYNzrDdKMVsxKh-A~2pIJ3ytWhg235iJZDoCFImcBFPwHVu3OmKpqKbIoica7mU1pHYjxCNVvy- -nrDyOQrEcRky4mraLJnGEUwlbBU9u0yj3NdZkog5S8MkscaitI6BiCGeKPZsYHmShwGeifT4JCZLa~FJJ7Tn8z7azH0E3ccsdjfs1oKPE1V2YC8da8N0RgNbfnym1JPNl7T-q0o2z-o~FlAfog=FlAfog
+
+    在 Tunnel Manger / Hidden Services Manager 的“Outproxies”和“SSL Outproxies”部分下，指定purokishi.i2p.. 如果您希望保留使用 false.i2p（当前不可靠）以及 purokishi.i2p 的选项，您可以指定：false.i2p,purokishi.i2p
+
+该代理使用广泛的域黑名单来阻止广告、恶意软件、网络钓鱼网站、色情和其他被认为不受欢迎或具有潜在危险的内容。它还允许访问 .onion 站点。
+
+注意：出于排查黑名单域的目的，访问域的日志将保留 7 天。无法将代理访问与单个客户端或 I2P 客户端目标相关联。
+
+还有本指南可能会有所帮助：http://lpazd6c4pk4nmzeodics5a2kv3ealx4hdfpidjplosydywzx244a.b32.i2p/outproxy.html
