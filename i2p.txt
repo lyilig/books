@@ -8,3 +8,6 @@ ia55kcrvskaitnxegirubvderl4vhva6bwkiducbkma4scy2rhca.b32.i2p
 
 I2P HTTPS Proxy 4445
 outproxy-tor.meeh.i2p
+
+i2p:
+https://www.reddit.com/r/i2p/comments/hcezcq/new_i2p_outproxy_service_purokishii2p/
