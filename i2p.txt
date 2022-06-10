@@ -11,6 +11,8 @@ outproxy-tor.meeh.i2p
 
 
 i2p:
+http://outproxy.purokishi.i2p/speedtest/
+
 https://www.reddit.com/r/i2p/comments/hcezcq/new_i2p_outproxy_service_purokishii2p/
  新的 I2P 代理服务：purokishi.i2p
 
